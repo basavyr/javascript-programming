@@ -30,8 +30,22 @@ function GenerateArray(n) {
 var my_Array = GenerateArray(100);
 
 // PrintArray(my_Array);
-console.log(my_Array);
+// console.log("Sorted array:");
+// console.log(my_Array.sort());
+// console.log("Reversed array:");
+// console.log(my_Array.reverse());
 
 // fct_val = AddTriplet(1, 2, 3)
 
 // console.log(fct_val);
+
+const simpleF = function(arg) {
+    return 'this is a simple function with arg: ' + arg;
+}
+console.log(simpleF(3));
+
+let arrowF = (arg) => {
+    return 'This is an arrow function with arg:' + arg;
+}
+
+console.log(arrowF(3));
