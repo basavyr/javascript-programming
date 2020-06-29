@@ -48,4 +48,17 @@ let arrowF = (arg) => {
     return 'This is an arrow function with arg:' + arg;
 }
 
+let hello = () => {
+    console.log('Hello! 😆');
+}
+
+function arr_hi(arg) {
+    console.log('Hey there from an arrow function🔶 with arg %s', arg);
+}
+
 console.log(arrowF(3));
+
+module.exports = {
+    hello,
+    arr_hi
+};
